@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "👋🏻 **ʜᴇʟʟᴏ sɪʀ [{}](tg://user?id={})** \n\n**"
+HOME_TEXT = " **ʜᴇʟʟᴏ sɪʀ [{}](tg://user?id={})** \n\n**"
 HELP_TEXT = """ᴛʜɪꜱ ʙᴏᴛ ʜᴀꜱ ᴀ ʟᴏᴛ ᴏꜰ ꜰᴇᴀᴛᴜʀᴇꜱ ʙᴀꜱᴇᴅ ᴏɴ ᴀ.ɪ ᴀɴᴅ ʜɪɢʜ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ ᴏꜰ ꜱᴏɴɢꜱ.ᴀɴᴅ ᴛʜɪꜱ ᴍᴜꜱɪᴄ + ꜱᴘᴀᴍ + ᴠᴄʀᴀɪᴅ ʙᴏᴛ ꜱᴍᴀꜱʜ ᴛʜᴇᴍ ᴏꜰ ᴀʟʟ ꜱᴇʀᴠᴇʀ ᴏꜰ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴀꜱꜱ..ᴘᴏᴡᴇʀᴇᴅ ʙʏ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](t.me/Simple_Mundaa)
 » **sᴇᴛᴜᴘ ɢᴜɪᴅᴇ** :
 
@@ -94,7 +94,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🏷️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.meTechQuard"),
             ],
             [
-                InlineKeyboardButton("🤖 sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Itz-Zaid/Zaid-Vc-Player"),
+                InlineKeyboardButton("🤖 sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
             ],
             [
                 InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ•", callback_data="help"),
@@ -191,7 +191,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🏷️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.meTechQuard"),
             ],
             [
-                InlineKeyboardButton("🤖 sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Itz-Zaid/Zaid-Vc-Player"),
+                InlineKeyboardButton("🤖 sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
             ],
             [
                 InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ•", callback_data="help"),
