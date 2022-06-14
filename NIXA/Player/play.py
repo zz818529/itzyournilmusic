@@ -255,7 +255,7 @@ async def play(c: Client, m: Message):
                     [
                         [
                             InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
                         ],
                         [
                             InlineKeyboardButton("•🗑•", callback_data="cls")
