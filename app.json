@@ -32,17 +32,17 @@
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
             "required": false,
-            "value": ""
+            "value": "TechQuardSupport"
         },
         "UPDATES_CHANNEL": {
             "description": "Ur Updates Channel",
             "required": false,
-            "value": ""
+            "value": "TechQuard"
         },
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": ""
+            "value": "5576613955 5331796378"
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
