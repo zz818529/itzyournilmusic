@@ -91,14 +91,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ➕", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🏷️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.meTechQuard"),
+                InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.meTechQuard"),
             ],
             [
-                InlineKeyboardButton("🤖 sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ•", callback_data="help"),
+                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ •", callback_data="help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -188,14 +188,14 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ ➕", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("💌 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🏷️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.meTechQuard"),
+                InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("📢 ᴄʜᴀɴɴᴇʟ", url=f"https://t.meTechQuard"),
             ],
             [
-                InlineKeyboardButton("🤖 sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
+                InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ•", callback_data="help"),
+                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ •", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
