@@ -182,7 +182,11 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("•🗑•", callback_data="cls")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard"),
+                        ],
+                        [
+                            InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
                         ]
                     ]
                 )
@@ -255,7 +259,11 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("•🗑•", callback_data="cls")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard"),
+                        ],
+                        [
+                            InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
                         ]
                     ]
                 )
