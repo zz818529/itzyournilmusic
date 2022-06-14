@@ -97,7 +97,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ •", callback_data="help"),
+                InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -194,7 +194,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Sumit9969/NIXA-MUSIC-BOT"),
             ],
             [
-                InlineKeyboardButton("• ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ •", callback_data="help"),
+                InlineKeyboardButton("📄 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
