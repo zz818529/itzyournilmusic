@@ -12,7 +12,7 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 hl = '/'
-deadlyversion = 'sᴘᴀᴍʙᴏᴛ 0.10'
+deadlyversion = 'sᴘᴀᴍʙᴏᴛ 2.0'
 
 NIXA_PIC = "https://te.legra.ph/file/084c206996897e2d42443.jpg"
   
