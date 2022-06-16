@@ -93,7 +93,7 @@ async def vraid(c: NIXA, m: Message):
                 await m.reply_photo(
                     photo=thumbnail,
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴠɪᴅᴇᴏ`\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇǫᴜᴇsᴛ ʙʏ:** {requester}",
+                    caption=f"» **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({link}) | `ᴠɪᴅᴇᴏ`\n💭 **ᴄʜᴀᴛ:** `{chat_id}`\n🧸 **ʀᴇǫᴜᴇsᴛ ʙʏ:** {requester}",
                 )
             else:
                 if Q == 720:
@@ -102,7 +102,7 @@ async def vraid(c: NIXA, m: Message):
                     amaze = MediumQualityVideo()
                 elif Q == 360:
                     amaze = LowQualityVideo()
-                await loser.edit("🔄 **ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
+                await loser.edit("🔄 **ᴘʀᴏᴄᴇssɪɴɢ...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioVideoPiped(
@@ -129,7 +129,11 @@ async def vraid(c: NIXA, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🗑", callback_data="cls")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                        ],
+                        [
+                            InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
                         ]
                     ]
                 )
@@ -165,11 +169,11 @@ async def vraid(c: NIXA, m: Message):
                             await m.reply_photo(
                                 photo=image,
                                 reply_markup=InlineKeyboardMarkup(buttons),
-                                caption=f"💡 **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ᴄʜᴀᴛ:** {chat_id}",
+                                caption=f"» **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ᴄʜᴀᴛ:** {chat_id}",
                             )
                         else:
                             try:
-                                await loser.edit("🔄 **ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
+                                await loser.edit("🔄 **ᴘʀᴏᴄᴇssɪɴɢ...**")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioVideoPiped(
@@ -200,7 +204,11 @@ async def vraid(c: NIXA, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🗑", callback_data="cls")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                        ],
+                        [
+                            InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
                         ]
                     ]
                 )
@@ -234,11 +242,11 @@ async def vraid(c: NIXA, m: Message):
                         await m.reply_photo(
                             photo=image,
                             reply_markup=InlineKeyboardMarkup(buttons),
-                            caption=f"💡 **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ᴄʜᴀᴛ:** {chat_id}",
+                            caption=f"» **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n🗂 **ɴᴀᴍᴇ:** [{songname}]({url}) | `ᴠɪᴅᴇᴏ`\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🧸 **ᴄʜᴀᴛ:** {chat_id}",
                         )
                     else:
                         try:
-                            await loser.edit("🔄 **ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
+                            await loser.edit("🔄 **ᴘʀᴏᴄᴇssɪɴɢ...**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioVideoPiped(
@@ -283,7 +291,7 @@ async def raidlive(c: NIXA, m: Message):
             else:
                 Q = 720
                 await m.reply(
-                    "» __ᴏɴʟʏ 720, 480, 360 ᴀʟʟᴏᴡᴇᴅ__ \n💡 **ɴᴏᴡ sᴛʀᴇᴀᴍɪɴɢ ᴠɪᴅᴇᴏ ɪɴ 720ᴘ**"
+                    "» __ᴏɴʟʏ 720, 480, 360 ᴀʟʟᴏᴡᴇᴅ__ \n» **ɴᴏᴡ sᴛʀᴇᴀᴍɪɴɢ ᴠɪᴅᴇᴏ ɪɴ 720ᴘ**"
                 )
             loser = await c.send_message(chat_id, "🔄 **ᴘʀᴏᴄᴇssɪɴɢ ʟɪᴠᴇʀᴀɪᴅ...**")
         else:
@@ -308,7 +316,7 @@ async def raidlive(c: NIXA, m: Message):
                 await m.reply_photo(
                     photo=f"{IMG_1}",
                     reply_markup=InlineKeyboardMarkup(buttons),
-                    caption=f"💡 **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}",
+                    caption=f"» **ʀᴀɪᴅ ɪɴ ǫᴜᴇᴜᴇ »** `{pos}`\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}",
                 )
             else:
                 if Q == 720:
@@ -318,7 +326,7 @@ async def raidlive(c: NIXA, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("🔄 **ᴊᴏɪɴɪɴɢ ᴠᴄ...**")
+                    await loser.edit("🔄 **ᴘʀᴏᴄᴇssɪɴɢ...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(
@@ -334,8 +342,8 @@ async def raidlive(c: NIXA, m: Message):
                     await m.reply_photo(
                         photo=f"{IMG_2}",
                         reply_markup=InlineKeyboardMarkup(buttons),
-                        caption=f"💡 **[__ʟɪᴠᴇ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ__]({link}) **\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}`",
+                        caption=f"» **[__ʟɪᴠᴇ ʀᴀɪᴅ sᴛᴀʀᴛᴇᴅ__]({link}) **\n\n💭 **ᴄʜᴀᴛ:** `{chat_id}`",
                     )
                 except Exception as ep:
                     await loser.delete()
-                    await m.reply_text(f"sᴛᴀʀᴛᴇᴅ ʀᴀɪᴅ ᴏɴ {chat_id}")
+                    await m.reply_text(f"» sᴛᴀʀᴛᴇᴅ ʀᴀɪᴅ ᴏɴ {chat_id}")
