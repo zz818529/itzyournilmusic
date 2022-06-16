@@ -12,17 +12,17 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 hl = '/'
-deadlyversion = 'sᴘᴀᴍʙᴏᴛ0.10'
+deadlyversion = 'sᴘᴀᴍʙᴏᴛ 0.10'
 
-NIXA_PIC = "https://te.legra.ph/file/458d42a851b8ec54f865d.jpg"
+NIXA_PIC = "https://te.legra.ph/file/084c206996897e2d42443.jpg"
   
 
-DEADLY = " ᴍᴜsɪᴄ+ʀᴀɪᴅ sᴘᴀᴍ ʙᴏᴛ\n\n"
-DEADLY += f"═══════════════════\n"
-DEADLY += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
-DEADLY += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-DEADLY += f"• **vᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
-DEADLY += f"═══════════════════\n\n"   
+DEADLY = "    ᴍᴜsɪᴄ sᴘᴀᴍ ʙᴏᴛ\n\n"
+DEADLY += f"_______________________\n"
+DEADLY += f"❍ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
+DEADLY += f"❍ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+DEADLY += f"❍ **vᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
+DEADLY += f"_______________________\n\n"   
 
                                   
 @BOT.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
