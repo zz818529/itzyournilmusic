@@ -19,7 +19,7 @@ async def join_group(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except BaseException:
         await message.reply_text(
-            "• **ɪ'ᴍ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ:**\n\n» ❌ __ᴀᴅᴅ ᴜsᴇʀs__",
+            "» **ɪ'ᴍ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ:**\n\n» ❌ __ᴀᴅᴅ ᴜsᴇʀs__",
         )
         return
 
