@@ -18,11 +18,11 @@ NIXA_PIC = "https://te.legra.ph/file/084c206996897e2d42443.jpg"
   
 
 DEADLY = "    ᴍᴜsɪᴄ sᴘᴀᴍ ʙᴏᴛ\n\n"
-DEADLY += f"_______________________\n"
-DEADLY += f"❍ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
-DEADLY += f"❍ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-DEADLY += f"❍ **vᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
-DEADLY += f"_______________________\n\n"   
+DEADLY += f"━━━━━━━━━━━━━━━━━━━\n"
+DEADLY += f" ‣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.1`\n"
+DEADLY += f" ‣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+DEADLY += f" ‣ **vᴇʀsɪᴏɴ**  : `{deadlyversion}`\n"
+DEADLY += f"━━━━━━━━━━━━━━━━━━━\n\n"   
 
                                   
 @BOT.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
