@@ -46,20 +46,20 @@ async def vcraid(_, e: Message):
     aud = choice(aud_list) 
 
     if inp:
-        NIXA = await e.reply_text("**Starting Raid**")
+        NIXA = await e.reply_text("**sᴛᴀʀᴛɪɴɢ ʀᴀɪᴅ...**")
         link = f"https://NIXA-robot.github.io/{aud[1:]}"
         dl = aud
         songname = aud[18:]
         if chat_id in QUEUE:
             pos = add_to_queue(chat_id, songname, dl, link, "Audio", 0)
             await NIXA.delete()
-            await e.reply_text(f"**> Raiding in:** {chat.title} \n\n**> Audio:** {songname} \n**> Position:** #{pos}")
+            await e.reply_text(f"**» ʀᴀɪᴅɪɴɢ ɪɴ:** {chat.title} \n\n**» ᴀᴜᴅɪᴏ:** {songname} \n**» ᴘᴏsɪᴛɪᴏɴ:** #{pos}")
         else:
             if call_py:
                 await call_py.join_group_call(chat_id, AudioPiped(dl), stream_type=StreamType().pulse_stream)
             add_to_queue(chat_id, songname, dl, link, "Audio", 0)
             await NIXA.delete()
-            await e.reply_text(f"**> Raiding in:** {chat.title} \n\n**> Audio:** {songname} \n**> Position:** Ongoing Raid")
+            await e.reply_text(f"**» ʀᴀɪᴅɪɴɢ ɪɴ:** {chat.title} \n\n**» ᴀᴜᴅɪᴏ:** {songname} \n**» ᴘᴏsɪᴛɪᴏɴ:** ᴏɴɢᴏɪɴɢ ʀᴀɪᴅ")
 
 
 @NIXA.on_message(filters.user(SUDO_USERS) & filters.command(["raidend"], prefixes=HNDLR))
@@ -76,11 +76,11 @@ async def ping(_, e: Message):
         try:
             if call_py:
                 await call_py.leave_group_call(chat_id)
-            await e.reply_text("**VC Raid Ended!**")
+            await e.reply_text("**» ᴠᴄ ʀᴀɪᴅ ᴇɴᴅᴇᴅ!**")
         except Exception as ex:
-            await e.reply_text(f"**ERROR** \n`{ex}`")
+            await e.reply_text(f"**ᴇʀʀᴏʀ** \n`{ex}`")
     else:
-        await e.reply_text("**No ongoing raid!**")
+        await e.reply_text("**» ɴᴏ ᴏɴɢᴏɪɴɢ ʀᴀɪᴅ!**")
 
 
 @NIXA.on_message(filters.user(SUDO_USERS) & filters.command(["raidpause"], prefixes=HNDLR))
@@ -97,11 +97,11 @@ async def ping(_, e: Message):
         try:
             if call_py:
                 await call_py.pause_stream(chat_id)
-            await e.reply_text(f"**VC Raid Paued In:** {chat_.title}")
+            await e.reply_text(f"**» ᴠᴄ ʀᴀɪᴅ ᴘᴀᴜsᴇᴅ ɪɴ:** {chat_.title}")
         except Exception as e:
-            await e.reply_text(f"**ERROR** \n`{e}`")
+            await e.reply_text(f"**ᴇʀʀᴏʀ** \n`{e}`")
     else:
-        await e.reply_text("**No ongoing raid!**")
+        await e.reply_text("**» ɴᴏ ᴏɴɢᴏɪɴɢ ʀᴀɪᴅ!**")
 
 
 @NIXA.on_message(filters.user(SUDO_USERS) & filters.command(["raidresume"], prefixes=HNDLR))
@@ -118,8 +118,8 @@ async def ping(_, e: Message):
         try:
             if call_py:
                 await call_py.resume_stream(chat_id)
-            await e.reply_text(f"**VC Raid Resumed In {chat_.title}**")
+            await e.reply_text(f"**» ᴠᴄ ʀᴀɪᴅ ʀᴇsᴜᴍᴇᴅ ɪɴ {chat_.title}**")
         except Exception as e:
-            await e.reply_text(f"**ERROR** \n`{e}`")
+            await e.reply_text(f"**ᴇʀʀᴏʀ** \n`{e}`")
     else:
-        await e.reply_text("**No raid is currently paused!**")
+        await e.reply_text("**» ɴᴏ ʀᴀɪᴅ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴘᴀᴜsᴇᴅ!**")
