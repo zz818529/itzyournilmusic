@@ -27,7 +27,7 @@ from youtubesearchpython import VideosSearch
 import yt_dlp
 import yt_dlp
 
-FOREGROUND_IMG = [
+NIXA_IMG = [
     "Process/ImageFont/Red.png",
     "Process/ImageFont/Black.png",
     "Process/ImageFont/Blue.png",
@@ -36,6 +36,7 @@ FOREGROUND_IMG = [
     "Process/ImageFont/Lightblue.png",
     "Process/ImageFont/Lightred.png",
     "Process/ImageFont/Purple.png",
+    "Process/ImageFont/foreground.png",
 ]
 
 def ytsearch(query: str):
@@ -106,7 +107,8 @@ async def generate_cover(thumbnail, title, userid, ctitle):
                 await f.write(await resp.read())
                 await f.close()
     image1 = Image.open(f"thumb{userid}.png")
-    image2 = Image.open("Process/ImageFont/Nixa.png")
+    images = choice(NIXA_IMGS)
+    image2 = Image.open(images)
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
