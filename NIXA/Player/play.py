@@ -27,7 +27,7 @@ from youtubesearchpython import VideosSearch
 import yt_dlp
 import yt_dlp
 
-NIXA_IMG = [
+NIXA_IMGS = [
     "Process/ImageFont/Red.png",
     "Process/ImageFont/Black.png",
     "Process/ImageFont/Blue.png",
