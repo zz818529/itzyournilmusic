@@ -35,11 +35,11 @@ async def broadcast_message_nopin(c: Client, message: Message):
                 sent += 1
             except Exception:
                 pass
-        await message.reply_text(f"✅ Broadcast complete in {sent} Group.")
+        await message.reply_text(f"✅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ɪɴ {sent} ɢʀᴏᴜᴘ.")
         return
     if len(message.command) < 2:
         await message.reply_text(
-            "**usage**:\n\n/broadcast (`message`) or (`reply to message`)"
+            "**» ᴜsᴀɢᴇ**:\n\n/broadcast (`ᴍᴇssᴀɢᴇ`) ᴏʀ (`ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ`)"
         )
         return
     text = message.text.split(None, 1)[1]
@@ -55,7 +55,7 @@ async def broadcast_message_nopin(c: Client, message: Message):
             sent += 1
         except Exception:
             pass
-    await message.reply_text(f"✅ Broadcast complete in {sent} Group.")
+    await message.reply_text(f"✅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ɪɴ {sent} ɢʀᴏᴜᴘ.")
 
 
 @Client.on_message(command(["broadcast_pin", f"broadcast_pin@{BOT_USERNAME}"]) & ~filters.edited)
@@ -85,12 +85,12 @@ async def broadcast_message_pin(c: Client, message: Message):
             except Exception:
                 pass
         await message.reply_text(
-            f"✅ Broadcast complete in {sent} Group.\n📌 Sent with {pin} chat pins."
+            f"✅ ʙʀᴀᴏᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ɪɴ {sent} ɢʀᴏᴜᴘ.\n📌 sᴇɴᴛ ᴡɪᴛʜ {pin} ᴄʜᴀᴛ ᴘɪɴs."
         )
         return
     if len(message.command) < 2:
         await message.reply_text(
-            "**usage**:\n\n/broadcast_pin (`message`) or (`reply to message`)"
+            "**» ᴜsᴀɢᴇ**:\n\n/broadcast_pin (`ᴍᴇssᴀɢᴇ`) or (`ʀᴇᴘʟʏ ᴛᴏ ᴍᴇssᴀɢᴇ`)"
         )
         return
     text = message.text.split(None, 1)[1]
@@ -113,5 +113,5 @@ async def broadcast_message_pin(c: Client, message: Message):
         except Exception:
             pass
     await message.reply_text(
-        f"✅ Broadcast completed in {sent} Group.\n📌 Sent with {pin} chat pins."
+        f"✅ ʙʀᴏᴀᴅᴄᴀsᴛ ᴄᴏᴍᴘʟᴇᴛᴇ ɪɴ {sent} ɢʀᴏᴜᴘ.\n📌 sᴇɴᴛ ᴡɪᴛʜ {pin} ᴄʜᴀᴛ ᴘɪɴs."
     )
