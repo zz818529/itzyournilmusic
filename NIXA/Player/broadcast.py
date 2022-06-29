@@ -5,7 +5,7 @@ from pyrogram.types import Message
 from pyrogram import filters, __version__ as pyrover
 from pytgcalls import (__version__ as pytgver)
 
-from NIXA.main import me_bot, bot as Client
+from NIXA.main import bot as Client
 from NIXA.filters import command
 from NIXA.decorators import sudo_users_only
 from NIXA.Database.dbchat import get_served_chats
