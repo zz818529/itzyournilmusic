@@ -186,7 +186,7 @@ async def vplay(c: Client, m: Message):
                             InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
                         ],
                         [
-                            InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
+                            InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
                         ]
                     ]
                 )
@@ -263,7 +263,7 @@ async def vplay(c: Client, m: Message):
                             InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
                         ],
                         [
-                            InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="cls")
+                            InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
                         ]
                     ]
                 )
