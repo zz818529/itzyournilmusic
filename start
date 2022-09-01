@@ -1,4 +1,4 @@
-#!/bin/bash
+# -------------------------- [ ʙɪɴ / ʙᴀsʜ ] ----------------------
 
 _other_installs () {
    if [[ $OTHER_INSTALLS != "None" ]]
