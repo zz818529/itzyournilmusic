@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream.quality import (
     MediumQualityVideo,
 )
 from youtubesearchpython import VideosSearch
-IMAGE_THUMBNAIL = "https://te.legra.ph/file/7efcc30c166d793ed98a5.jpg"
+IMAGE_THUMBNAIL = "https://te.legra.ph/file/1bb367c31b30b873b6194.png"
 
 
 def ytsearch(query: str):
@@ -103,7 +103,7 @@ async def vplay(c: Client, m: Message):
             invitelink = await c.export_chat_invite_link(chat_id)
             if invitelink.startswith("https://t.me/+"):
                     invitelink = invitelink.replace(
-                        "https://t.me/+", "https://t.me/joinchat/"
+                        "https://t.me/itzyournil", "https://t.me/itzyournil"
                     )
             await user.join_chat(invitelink)
         except UserAlreadyParticipant:
@@ -182,8 +182,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/itzyournil"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/itzyournil")
                         ],
                         [
                             InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
@@ -259,8 +259,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/TechQuardSupport"),
-                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TechQuard")
+                            InlineKeyboardButton("👥 sᴜᴘᴘᴏʀᴛ", url="https://t.me/itzyournil"),
+                            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/itzyournil")
                         ],
                         [
                             InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data="cls")
