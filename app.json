@@ -9,7 +9,7 @@
         "SESSION_NAME": {
             "description": "fill with the pyrogram session string from account",
             "required": true
-             "value": "BQBkThpJ7Zath5MCEfBzyQPks1jxbg8Wu6QkW1y1YvdrPqDXmIdO3YvlftIk9VTb0NrPc2vWWF3qGUebtSaYFPoqQHjHbdkdRe5dXH8rwzRMMYpvRI49Cd78A6tk9HV3luaT8lVTY3t4bAPVZUSqFYurO3tlRpVauURPWHxEyaBFYTtHJXhqUA2kfs8wjoxyHZvXOB7TaAtTMFIcP6cE8CrehY7wwueLCyjPs7dvf3V4wBPQHoloFYSV28NLelcmun8x28dsJDri1qlSrt2ojmjj9NMF-0Sb6rROWpSZ7bJOr2aQSGqG5TZxOBycTqvwwQORHa7B6msalmI4eVExEJqAfapu5QA"
+             
         },
         "ASSISTANT_NAME": {
             "description": "fill with your telegram id as the owner of the bot",
