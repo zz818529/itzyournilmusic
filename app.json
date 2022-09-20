@@ -9,26 +9,27 @@
         "SESSION_NAME": {
             "description": "fill with the pyrogram session string from account",
             "required": true
+             "value": "BQBkThpJ7Zath5MCEfBzyQPks1jxbg8Wu6QkW1y1YvdrPqDXmIdO3YvlftIk9VTb0NrPc2vWWF3qGUebtSaYFPoqQHjHbdkdRe5dXH8rwzRMMYpvRI49Cd78A6tk9HV3luaT8lVTY3t4bAPVZUSqFYurO3tlRpVauURPWHxEyaBFYTtHJXhqUA2kfs8wjoxyHZvXOB7TaAtTMFIcP6cE8CrehY7wwueLCyjPs7dvf3V4wBPQHoloFYSV28NLelcmun8x28dsJDri1qlSrt2ojmjj9NMF-0Sb6rROWpSZ7bJOr2aQSGqG5TZxOBycTqvwwQORHa7B6msalmI4eVExEJqAfapu5QA"
         },
         "ASSISTANT_NAME": {
             "description": "fill with your telegram id as the owner of the bot",
             "required": true,
-            "value": ""
+            "value": "Itzyournil_Music_Robot"
         },
         "BOT_USERNAME": {
             "description": "fill with telegram id of account",
             "required": true,
-            "value": ""
+            "value": "Itzyournil_Music_Robot"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
             "required": true,
-            "value": ""
+            "value": "12008999"
         },
         "API_HASH": {
             "description": "your Api Hash from my.telegram.org/apps",
             "required": false,
-            "value": ""
+            "value": "c578bfe1625c0bfdfc4916f3a56ea6d1"
         },
         "GROUP_SUPPORT": {
             "description": "Ur Support Group Username",
@@ -43,7 +44,7 @@
         "SUDO_USERS": {
             "description": "fill with the user id who can access all function in your bot (separate with space).",
             "required": true,
-            "value": "5178852631"
+            "value": "5178852631 5767965445 2108321509 "
         },
         "DURATION_LIMIT": {
             "description": "filled, don't change this !",
@@ -53,7 +54,7 @@
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "5363491249:AAFvxZijq8aY4qNF3r2OlQOCxOcRV5pJOsg"
         }
 
     },
