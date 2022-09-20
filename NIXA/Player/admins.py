@@ -62,9 +62,9 @@ async def skip(client, m: Message):
         if op == 0:
             await m.reply("❌ ɴᴏᴛʜɪɴɢ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ")
         elif op == 1:
-            await m.reply("✅ __ǫᴜᴇᴜᴇs__ **ɪs ᴇᴍᴘᴛʏ.**\n\n**• ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
+            await m.reply("✅ __ǫᴜᴇᴜᴇs__ **ɪs ᴇᴍᴘᴛʏ.**\n\n**• SORRY JANU I AM  ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
         elif op == 2:
-            await m.reply("🗑️ **ᴄʟᴇᴀʀɪɴɢ ᴛʜᴇ ǫᴜᴇᴜᴇs**\n\n**• ᴜsᴇʀʙᴏᴛ ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
+            await m.reply("🗑️ **ᴄʟᴇᴀʀɪɴɢ ᴛʜᴇ ǫᴜᴇᴜᴇs**\n\n**• SORRY JANU I AM  ʟᴇᴀᴠɪɴɢ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**")
         else:
             await m.reply_photo(
                 photo=f"{IMG_3}",
