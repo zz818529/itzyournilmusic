@@ -14,7 +14,7 @@ from datetime import datetime
 hl = '/'
 deadlyversion = 'sᴘᴀᴍʙᴏᴛ 2.0'
 
-NIXA_PIC = "https://te.legra.ph/Natasha-Malkova-09-20"
+NIXA_PIC = "https://te.legra.ph/file/1bb367c31b30b873b6194.png"
   
 
 DEADLY = "    ᴍᴜsɪᴄ sᴘᴀᴍ ʙᴏᴛ\n\n"
