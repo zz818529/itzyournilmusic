@@ -111,7 +111,7 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ **ᴜsᴇʀʙᴏᴛ ʜᴀs ᴅɪsᴄᴏɴɴᴇᴄᴛᴇᴅ ғʀᴏᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ.**")
+           await bot.send_message(chat_id, "✅ **musicʙᴏᴛ ʜᴀs ᴅɪsᴄᴏɴɴᴇᴄᴛᴇᴅ ғʀᴏᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ.**")
         elif op==2:
            await bot.send_message(chat_id, "❌ **ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ**\n\n» **ᴄʟᴇᴀʀɪɴɢ** __Queues__ **ᴀɴᴅ ʟᴇᴀᴠɪɴɢ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ.**")
         else:
